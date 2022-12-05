@@ -4,5 +4,8 @@
   },
   "stable-diffusion-2": {
     "default": "Wattenberger__ml-blocks__ml-space"
+  },
+  "bart-base": {
+    "default": "Wattenberger__ml-blocks__ml-space"
   }
 }
