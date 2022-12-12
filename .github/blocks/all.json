@@ -1,11 +1,5 @@
 {
-  "stable-diffusion": {
-    "default": "Wattenberger__ml-blocks__ml-space"
-  },
-  "stable-diffusion-2": {
-    "default": "Wattenberger__ml-blocks__ml-space"
-  },
-  "bart-base": {
+  "*.space": {
     "default": "Wattenberger__ml-blocks__ml-space"
   }
 }
