@@ -1,5 +1,5 @@
 {
 "model": "facebook/bart-base",
-"inputs": [{ "type": "text", "id": "prompt", "name": "text prompt", "placeholder": "Your sentence here" }], 
+"inputs": [{ "type": "text", "id": "inputs", "name": "text prompt", "placeholder": "Your sentence here" }], 
 "outputType": "json"
 }
