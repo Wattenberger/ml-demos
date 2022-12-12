@@ -1,5 +1,6 @@
 {
 "model": "stabilityai/stable-diffusion-2",
+"description": "This is a model that can be used to generate and modify images based on text prompts. It is a Latent Diffusion Model that uses a fixed, pretrained text encoder (OpenCLIP-ViT/H).",
 "inputs": [
   { "type": "text", "id": "inputs", "name": "text prompt", "placeholder": "A cat in a hot dog costume" },
   { "type": "text", "id": "negative_prompt", "name": "negative prompt", "placeholder": "hot dogs" },
