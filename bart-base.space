@@ -1,5 +1,6 @@
 {
 "model": "facebook/bart-base",
+"description": "BART is a transformer encoder-decoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text.",
 "inputs": [{ "type": "text", "id": "inputs", "name": "text prompt", "placeholder": "Your sentence here" }], 
 "outputType": "json"
 }
