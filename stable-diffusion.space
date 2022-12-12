@@ -1,5 +1,5 @@
 {
 "model": "runwayml/stable-diffusion-v1-5",
-"inputs": [{ "type": "text", "id": "prompt", "name": "text prompt", "placeholder": "A dog in a hot dog costume" }], 
+"inputs": [{ "type": "text", "id": "inputs", "name": "text prompt", "placeholder": "A dog in a hot dog costume" }], 
 "outputType": "image"
 }
