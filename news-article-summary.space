@@ -1,0 +1,6 @@
+{
+"model": "facebook/bart-large-xsum",
+"description": "Summarize a news article. Bart model finetuned on xsum.",
+"inputs": [{ "type": "article-extraction", "id": "inputs", "name": "Article url", "placeholder": "http://article-url.com", "default": "https://www.cnn.com/2022/12/12/weather/winter-storm-system-snow-in-us-west-monday/index.html" }],
+"outputType": "text-summary"
+}

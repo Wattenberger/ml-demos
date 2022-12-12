@@ -1,0 +1,6 @@
+{
+"model": "finiteautomata/beto-sentiment-analysis",
+"description": "Model trained with TASS 2020 corpus (around ~5k tweets) of several dialects of Spanish. Base model is BETO, a BERT model trained in Spanish.",
+"inputs": [{ "type": "textarea", "id": "inputs", "name": "Text", "placeholder": "Text to detect sentiment from", "default": "Believe you can, and you’re halfway there." }],
+"outputType": "table"
+}
