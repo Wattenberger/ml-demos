@@ -1,5 +1,11 @@
 {
-"model": "runwayml/stable-diffusion-v1-5",
-"inputs": [{ "type": "text", "id": "prompt", "name": "text prompt", "placeholder": "A cat in a hot dog costume" }], 
+"model": "stabilityai/stable-diffusion-2",
+"inputs": [
+  { "type": "text", "id": "inputs", "name": "text prompt", "placeholder": "A cat in a hot dog costume" },
+  { "type": "text", "id": "negative_prompt", "name": "negative prompt", "placeholder": "hot dogs" },
+  { "type": "range", "id": "guidance_scale", "name": "guidance scale", "max": 50, "default": 9 },
+  { "type": "range", "id": "width", "name": "width", "min": 64, "max": 512, "default": 512, "step": 64 },
+  { "type": "range", "id": "height", "name": "height", "min": 64, "max": 512, "default": 512, "step": 64 }
+], 
 "outputType": "image"
 }
